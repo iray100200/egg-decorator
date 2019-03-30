@@ -1,6 +1,6 @@
 const fs = require('fs')
 const path = require('path')
-const babelConfig = JSON.parse(fs.readFileSync(path.resolve(__dirname, './.babelrc')))
+const babelConfig = require('./babel.config')
 
 require('@babel/register')(babelConfig)
 
