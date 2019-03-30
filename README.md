@@ -67,6 +67,11 @@ class ExamController extends Controller {
 
 export default LibraryController
 
+/*
+ * index output: { success: true, data: true, errorCode: null, errorMsg: null }
+ *  post output: { success: false, data: null, errorCode: -1, errorMsg: "error-message" }
+ */
+
 ```
 
 <!-- example here -->
