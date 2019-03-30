@@ -55,7 +55,6 @@ see [config/config.default.js](config/config.default.js) for more detail.
 ```js
 import { Controller } from 'egg'
 import { pretty } from 'egg-decorator'
-
 @pretty()
 class TestController extends Controller {
   index() {
@@ -65,12 +64,10 @@ class TestController extends Controller {
     return new Error('error-message')
   }
 }
-
 export default TestController
-
 /*
  * index output: { success: true, data: true, errorCode: null, errorMsg: null }
- *  post output: { success: false, data: null, errorCode: -1, errorMsg: "error-message" }
+ * post output: { success: false, data: null, errorCode: -1, errorMsg: "error-message" }
  */
 
 ```
@@ -79,7 +76,7 @@ export default TestController
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/iray100200/egg-decorator/issues).
 
 ## License
 
