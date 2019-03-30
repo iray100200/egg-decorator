@@ -53,10 +53,11 @@ see [config/config.default.js](config/config.default.js) for more detail.
 ## Example
 
 ```js
+import { Controller } from 'egg'
 import { pretty } from 'egg-decorator'
 
 @pretty()
-class ExamController extends Controller {
+class TestController extends Controller {
   index() {
     return true
   }
@@ -65,7 +66,7 @@ class ExamController extends Controller {
   }
 }
 
-export default LibraryController
+export default TestController
 
 /*
  * index output: { success: true, data: true, errorCode: null, errorMsg: null }
