@@ -52,6 +52,23 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Example
 
+```js
+import { pretty } from 'egg-decorator'
+
+@pretty()
+class ExamController extends Controller {
+  index() {
+    return true
+  }
+  post() {
+    return new Error('error-message')
+  }
+}
+
+export default LibraryController
+
+```
+
 <!-- example here -->
 
 ## Questions & Suggestions
