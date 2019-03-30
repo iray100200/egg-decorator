@@ -1,6 +1,6 @@
 {
   "name": "egg-decorator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Egg decorator",
   "eggPlugin": {
     "name": "decorator"
