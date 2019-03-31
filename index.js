@@ -1,3 +1,3 @@
 module.exports = {
-  pretty: require('./decorators/pretty')
-}
+  pretty: require('./decorators/pretty'),
+};

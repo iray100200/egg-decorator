@@ -1,10 +1,10 @@
-'use strict';
+import pretty from '../../../../../../decorators/pretty'
 
 const Controller = require('egg').Controller;
 
 class HomeController extends Controller {
-  async index() {
-    this.ctx.body = 'hi, ' + this.app.plugins.decorator.name;
+  index() {
+    return 'hi, ' + this.app.plugins.decorator.name;
   }
 }
 

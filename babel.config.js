@@ -1,28 +1,28 @@
 module.exports = {
-  "presets": [
+  presets: [
     [
-      "@babel/preset-env",
+      '@babel/preset-env',
       {
-        "targets": {
-          "node": true
-        }
-      }
-    ]
+        targets: {
+          node: true,
+        },
+      },
+    ],
   ],
-  "plugins": [
-    "@babel/plugin-transform-runtime",
-    "@babel/plugin-transform-async-to-generator",
+  plugins: [
+    '@babel/plugin-transform-runtime',
+    '@babel/plugin-transform-async-to-generator',
     [
-      "@babel/plugin-proposal-decorators",
+      '@babel/plugin-proposal-decorators',
       {
-        "legacy": true
-      }
+        legacy: true,
+      },
     ],
     [
-      "@babel/plugin-proposal-class-properties",
+      '@babel/plugin-proposal-class-properties',
       {
-        "loose": true
-      }
-    ]
-  ]
-}
+        loose: true,
+      },
+    ],
+  ],
+};
