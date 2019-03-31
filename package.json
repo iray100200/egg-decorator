@@ -1,6 +1,6 @@
 {
   "name": "egg-decorator",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Egg decorator",
   "eggPlugin": {
     "name": "decorator"
@@ -9,6 +9,7 @@
     "egg",
     "eggPlugin",
     "egg-plugin",
+    "egg-decorator",
     "decorator"
   ],
   "dependencies": {
@@ -16,8 +17,6 @@
     "@babel/plugin-proposal-decorators": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
     "@babel/register": "^7.4.0",
-    "@babel/runtime": "^7.4.2",
-    "@babel/runtime-corejs2": "^7.4.2",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
     "@babel/plugin-transform-async-to-generator": "^7.4.0",
     "@babel/plugin-transform-runtime": "^7.4.0"
@@ -46,9 +45,10 @@
   },
   "files": [
     "app.js",
-    "agent.js",
     "config",
-    "app"
+    "decorators",
+    "babel.config.js",
+    "index"
   ],
   "ci": {
     "version": "8, 10"
