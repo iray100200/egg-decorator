@@ -1,4 +1,4 @@
-'use strict';
+
 
 exports.decorator = {
   app: true,

@@ -1,3 +1,10 @@
 {
-  "extends": "eslint-config-egg"
+  "extends": ["eslint:recommended", "eslint-config-egg"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "legacyDecorators": true
+    }
+  }
 }
